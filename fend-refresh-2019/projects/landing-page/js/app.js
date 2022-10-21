@@ -48,7 +48,7 @@ function navigation(){
         const section = sections[i++];
         const li = document.createElement("sectionList");
 
-        li.innerHTML =`<li><a class="menu__link" href="#${section && section.id}">${section?.dataset.nav}</a></li>`;
+        li.innerHTML =`<li><a class="menu__link" href="#${section && section.id}">${section.dataset.nav}</a></li>`;
 
         navBarList.prepend(li);
    }
