@@ -28,14 +28,7 @@ const sections = document.querySelectorAll("section");
 
 /**
  * End Global Variables
- * Start Helper Functions
- *
-*/
-
-
-
-/**
- * End Helper Functions
+ 
  * Begin Main Functions
  *
 */
